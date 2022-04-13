@@ -6,6 +6,7 @@ RSpec.describe BankAccount do
       account = BankAccount.new(10)
       account.deposit(5)
       except(account.balance).to be 15
+    end
     it "原本帳戶有 10 元，存入 -5 元之後，帳戶餘額還是 10 元（不能存入小於等於零的金額）"
   end
 
