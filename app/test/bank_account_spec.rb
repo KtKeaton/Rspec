@@ -1,3 +1,5 @@
+require "./bank_account"
+
 RSpec.describe BankAccount do
   describe "存錢功能" do
     it "原本帳戶有 10 元，存入 5 元之後，帳戶餘額變 15 元"
